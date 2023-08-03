@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.header {
+}
+
+.header_container {
+  display: flex;
+  align-items: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.site-logo {
+  display: block;
+  margin-right: auto;
+  text-decoration: none;
+  color: aliceblue;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
+}
+.site-logo_text {
+  list-style: none;
+  text-decoration: none;
+  font-size: 3.5rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+.sitenav {
+}
+.sitenav_list {
+  display: flex;
+}
+.sitenav_item {
+}
+.sitenav_link {
+  font-size: 1.8rem;
+  padding: 0.8rem 1.2rem;
+}
+.sitenav_link:hover {
+}
+
+.header_button {
+  width: 0;
+  height: 0;
+  background: 0;
+  border: 0;
+  display: none;
+  font-size: 30px;
+}
+.header_button:hover {
+  background-color: white;
+  color: #f3603c;
+}
+.header_get {
+  width: 137px;
+  height: 44px;
+  background-color: #f3603c;
+  border-radius: 30px;
+  color: #fcf6f5;
+  border: 0;
+}
+
+.main_button {
+  width: 137px;
+  height: 44px;
+  background-color: #f3603c;
+  border-radius: 30px;
+  color: #fcf6f5;
+  border: 0;
+  margin-top: 30px;
+}
+.main_text {
+  width: 300px;
+}
+.main_discription {
+  width: 300px;
+}
+
+@media screen and (max-width: 1000px) {
+  .sitenav {
+    display: none;
+  }
+  .header_get {
+    display: none;
+  }
+  .header_button {
+    display: block;
+    width: 50px;
+  }
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .main_text {
+    width: 50px;
+  }
+  .main_discription {
+    width: 50px;
+  }
+
+  .main_button {
+    margin: 0 auto;
+  }
+  .main_img {
+  }
+  .img {
+    display: flex;
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  .footer_list {
+    width: 100px;
+  }
+}
